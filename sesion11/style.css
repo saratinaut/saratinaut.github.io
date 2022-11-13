@@ -1,0 +1,86 @@
+body{
+    margin: auto;
+    font-family: 'Abril Fatface', cursiva;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: lighter;
+    color:rgb(46, 46, 46);
+    
+}
+
+
+.contenedor {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+#contenedortitulo{
+    width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+#imagenesContenedor{
+    width: 50%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    align-content: flex-end;   
+    flex-direction: row;
+    justify-items: space-between;
+    align-self: flex-end;
+}
+
+.hijo{
+    margin: 5px;
+}
+
+
+.hijo1{
+    margin: 0;
+    height: 100vh;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.contenedor img {
+    margin:7px;
+    width: 13vw;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+a:hover img {
+    filter: blur(0);
+}
+
+
+.pagImagen{
+    
+    font-weight: lighter;
+    font-size: 80px;
+    
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    align-items:flex-start;
+}
+
+.pagImagen img{
+    margin-right: 25px;
+    height: 100vh;
+   
+
+}
+
+
