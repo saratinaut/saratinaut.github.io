@@ -51,6 +51,7 @@ h2{
    
     display: flex;
     flex-direction: row;
+    align-content: center;
     align-items: center;
 }
 
@@ -59,8 +60,9 @@ h2{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;   
+      
 }
+
 a{
     color: #fcf7eb;
     font-size: 40px;
