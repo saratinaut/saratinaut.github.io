@@ -1,15 +1,20 @@
 body{
     margin: auto;
     font-family: 'Abril Fatface', cursiva;
+    background-color: #f5f5f5;
 }
 
 h1{
-    font-size: 80px;
+    font-size:80px;
     font-weight: lighter;
-    color:rgb(46, 46, 46);
-    
+    margin-right: 100px;
 }
-
+ p{
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 40px;
+    margin-top:100px ;
+ }
 
 .contenedor {
     margin: 0;
@@ -35,6 +40,7 @@ h1{
     flex-direction: row;
     justify-items: space-between;
     align-self: flex-end;
+
 }
 
 .hijo{
@@ -53,23 +59,18 @@ h1{
 
 .contenedor img {
     margin:7px;
-    width: 13vw;
+    margin-right: 20px;
+    width: 14vw;
     height: auto;
     filter: grayscale(100%);
+    box-shadow: 8px 8px 18px -8px rgb(83, 83, 83);
 }
 
 a:hover img {
     filter: blur(0);
 }
 
-
 .pagImagen{
-    
-    font-weight: lighter;
-    font-size: 80px;
-    
-    
-
     display: flex;
     flex-direction: row;
     justify-items: space-between;
@@ -77,10 +78,8 @@ a:hover img {
 }
 
 .pagImagen img{
-    margin-right: 25px;
+    margin-right: 45px;
     height: 100vh;
-   
-
 }
 
 
