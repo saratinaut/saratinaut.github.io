@@ -1,53 +1,54 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: auto;
+    margin: 0;
+    background-color:#fcf7eb;
 }
 
 .contenedor {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-content: center;   
+    justify-content: space-between;
 }
 
 #contenedor1{
-    background-color:#fcf7eb;
+    
+    width: 40vw;
+    padding-left: 1vw;
 }
 
 h1{
-    margin-left: 20px;
-    font-size: 170px;
+    
+    font-size: 20vh;
     color: rgb(44, 44, 44);
+    margin: 0;
 }
 h2{
-    margin-left: 5px;
-    font-size: 30px;
-    position: relative;
-    bottom: 120px;
-    right: 125px;
+    margin: 0;
+    font-size:4vh;
     color: rgb(44, 44, 44);
 }
 
 #contenedor2{
-    background-color:#f3ebd6;
+    background-color:#f3ebd6; 
 }
 
 .hijo1{
-      margin: 0;
-      width: 50%;
-      height: 100vh;
-     
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 .hijo2{
     margin: 0;
-    width: auto;
     height: 100vh;
+    
    
     display: flex;
     flex-direction: row;
@@ -56,37 +57,53 @@ h2{
 }
 
 .sesion{
-    width: 100%;
+    
     margin: 0;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
       
 }
 
-a{
+h3{
     color: #fcf7eb;
-    font-size: 40px;
+    font-size: 2vw;
     transform: rotate(90deg); 
     text-decoration: none;
+    margin-left: 2vw;
+    margin-right:2vw;
     
+}
+a{
+    text-decoration: none;
+}
+
+a:hover h3{
+    font-size: 2.3vw;
+    
+}
+
+a:hover{
+    transform: scale(1);
 }
 
 #sesion1{
     background-color: #e0a46c;
-    width: 25%;
+    
 }
 
 #sesion2{
     background-color:#aeb784;
-    width: 25%;
+    
 }
 
 #sesion3{
     background-color:#f0c472;
-    width: 25%;
+    
 }
 
 #sesion4{
     background-color:#bacdd2;
-    width: 25%;
+    
 }
