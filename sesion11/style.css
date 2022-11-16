@@ -95,4 +95,25 @@ h1:hover{
     height: 100vh;
 }
 
+.leyenda {
+    border-radius: 8px;
+    opacity: 0;
+    position: absolute;
+    background-color:rgb(243, 243, 243) ;
+    
+  }
 
+  
+.hijo:hover .leyenda {
+    opacity: 1;
+  }
+
+.text {
+    color: rgb(230, 28, 28);
+    font-size: 4vh;
+    font-weight: lighter;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+    
+  }
