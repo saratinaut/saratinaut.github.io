@@ -2,16 +2,25 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
-#barra1 {
+header {
     position: fixed;
     width: 100%;
     height: auto;
 
-
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+}
+
+.adobe img {
+    height: 60px;
+    margin-right: 55vw;
+    padding-left: 5vw;
+}
+
+header a{
+text-decoration: none;
+color: aliceblue;
 }
 
 #menu {
@@ -21,32 +30,15 @@ body {
     justify-content: end;
 }
 
-a {
-    text-decoration: none;
-}
-
-p {
-    color: aliceblue;
-    text-decoration: none;
-}
-
 .menuhijo {
     margin: 10px;
     width: auto;
-
 
     display: flex;
     align-self: flex-end;
     flex-direction: row;
     align-items: center;
     flex-wrap: nowrap;
-
-}
-
-.adobe img {
-    height: 60px;
-    margin-right: 55vw;
-    padding-left: 5vw;
 }
 
 .menuhijo img {
@@ -54,18 +46,19 @@ p {
     height: 18px;
 }
 
-#fondo {
+main {
     background-image: url(img/fondo-1400x860.jpg);
     background-size: cover;
     height: 800px;
+    
 
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
 }
 
-#contenedor1 {
+#section1{
     width: 40vw;
     padding: 5vw;
 
@@ -77,19 +70,13 @@ p {
     align-items: flex-start;
 }
 
-h1 {
+#section1 h1, h2{
     margin: 0;
 }
 
-h2 {
-    margin: 0;
+#section1 p{
+    font-weight: bold;
 }
-
-h4 {
-    color: rgb(24, 166, 223);
-}
-
-
 
 .plan {
     background-color: rgb(24, 166, 223);
@@ -102,7 +89,13 @@ h4 {
     justify-content: center;
 }
 
-#contenedor2 {
+#section1 a{
+    text-decoration: none;
+    color: rgb(24, 166, 223);
+    margin-bottom:  8px;
+}
+
+#section2 {
     width: 40vw;
     padding: 5vw;
 
@@ -112,10 +105,9 @@ h4 {
     justify-content: flex-end;
     align-items: flex-start;
     align-content: flex-start;
-
 }
 
-hr {
+#section2 hr {
     background-color: black;
     border: none;
     height: 1px;
@@ -123,23 +115,11 @@ hr {
     margin: 0;
 }
 
-#contenedor2 img {
+#section2 img{
     height: 30px;
     position: relative;
     top: 8px;
 }
-
-#colores {
-    background-color: aqua;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    align-items: center;
-    justify-content: flex-start;
-}
-
 #cuadrado {
     height: 40px;
     width: 40px;
@@ -165,6 +145,16 @@ hr {
     background-color: rgb(245, 191, 221);
 }
 
+#colores {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
 #barra2 {
     padding-left: 5vw;
     background-color: rgb(32, 32, 32);
@@ -173,12 +163,16 @@ hr {
     align-items: center;
 }
 
-#barra2 p {
+footer p {
     margin-right: 15px;
 }
 
 .amarillo {
     color: rgb(250, 229, 41);
+}
+
+.blanco {
+    color: rgb(255, 255, 255);
 }
 
 #barra3 {
