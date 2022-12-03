@@ -25,15 +25,22 @@ h1 {
     margin-bottom: 0;
 }
 
+h1:hover {
+    color: #aeb784;
+    
+}
+
 h2 {
     margin-top: 0;
     font-size: 2vw;
     color: rgb(44, 44, 44);
 }
 
-#contenedor2 {
-    background-color: #f3ebd6;
+h2:hover{
+    color: #e0a46c;
 }
+
+
 
 .hijo1 {
     margin: 0;
@@ -48,6 +55,7 @@ h2 {
 .hijo2 {
     margin: 0;
     height: 100vh;
+    width: auto;
 
 
     display: flex;
@@ -68,11 +76,12 @@ h2 {
 
 h3 {
     color: #fcf7eb;
-    font-size: 25px;
+    font-size: 30px;
     transform: rotate(90deg);
     text-decoration: none;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
 
 }
 
@@ -81,13 +90,10 @@ a {
 }
 
 a:hover h3 {
-    font-size: 30px;
+    font-size: 40px;
 
 }
 
-a:hover {
-    transform: scale(1);
-}
 
 #sesion1 {
     background-color: #e0a46c;
@@ -108,9 +114,11 @@ a:hover {
 #sesion5 {
     background-color: #e0a46c;
 }
+
 #sesion6 {
     background-color:#aeb784;
 }
+
 #sesion7 {
     background-color:#f0c472;
 }
