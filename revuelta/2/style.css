@@ -3,8 +3,9 @@ div{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    width: 250px;
-    height:250px;
+    width: 650px;
+    height: 650px;
+    
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
 }

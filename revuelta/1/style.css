@@ -41,3 +41,16 @@
         
     }
 }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    div{
+
+        background-image: url("img/Comp\ 1_10.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #080d16;
+
+    }
+    
+ }
