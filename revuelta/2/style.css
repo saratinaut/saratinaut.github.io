@@ -1,39 +1,10 @@
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-     body{
-        background-image: url("img/Comp\ 1.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: centers;
-    }
-  }
-
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    body{
-        background-image: url("img/Comp\ 1.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: centers;
-    }
-}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-    body{
-        background-image: url("img/Comp\ 1.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: centers;
-    }
- }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-    body{
-        background-image: url("img/Comp\ 1_10.gif");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: centers;
-    }
+div{
+    background-image: url("img/insta-anagea2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 250px;
+    height:250px;
+    margin: auto;
+    margin-top: 20px;
 }
