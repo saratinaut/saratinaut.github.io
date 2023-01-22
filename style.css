@@ -1,117 +1,192 @@
-body {
-    font-family: 'Ubuntu', sans-serif;
+body{
     margin: 0;
-    background-color: #f3ebd6;
+    background-color: #264e48;
+    height: 100vh;
+    width: 100vw;
 }
-
-.contenedor {
-    margin: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-between;
-}
-
-#contenedor1 {
-
-    width: 40vw;
-    padding-left: 2vw;
-}
-#contenedor2 {
-
-    width: 60vw;
-    
-}
-
-h1 {
-
-    font-size: 10vw;
-    color: rgb(44, 44, 44);
-    margin-bottom: 0;
-}
-
-h1:hover {
-    color: #aeb784;
-    
-}
-
-h2 {
-    margin-top: 0;
-    font-size: 2vw;
-    color: rgb(44, 44, 44);
-}
-
-h2:hover{
-    color: #e0a46c;
-}
-
-
-
-.hijo1 {
-    margin: 0;
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    .contenedor{
+        width: 100vw;
     height: 100vh;
     display: flex;
-
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.hijo2 {
-    margin: 0;
-    height:50vh;
-    width: auto;
-
-
+    }
+    nav{
+       
+        width: 100vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    nav div{
+        width: 100vw;
+        height: 5vh;
+        margin-bottom:1vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    nav div a{
+        color: white;
+        font-family: roc-grotesk, sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        white-space: nowrap;
+        text-decoration: none;
+     }
+     
+     
+main{
+    height: 60vh;
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    align-content: center;
+    flex-wrap: nowrap;
     align-items: center;
+    justify-content: center;   
 }
+main div h1{
+    color: #1c3838;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16vw;
+}
+main h1:hover{
+    color: #b0cb2d;
+    font-family: tuppence, serif;
+    font-family: mencken-std,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    bottom: 10px;
+}
+footer{
 
-.sesion {
+    background-image: url(img/saratinaut2.gif);
+ 
+    
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+  }
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
 
-    margin: 0;
+.contenedor{
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    justify-content:end;
+    
+}
+nav{
+    height: 100vh;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+nav div{
+    width: 7vw;
+    height: 18vh;
+    margin-bottom:1vh ;
+   /* border: 3px solid rgb(255, 255, 255) ;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-h3 {
-    color: #fcf7eb;
-    font-size: 30px;
-    transform: rotate(90deg);
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+ nav div a{
+    color: white;
+    rotate: -90deg;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 100;
+    font-style: normal;
     white-space: nowrap;
-
-}
-
-a {
     text-decoration: none;
+ }
+
+ nav .hover:hover {
+    background-image: url(img/inicio.png);
+    background-repeat: no-repeat;
+    background-size:contain;  
 }
 
-a:hover h3 {
-    font-size: 40px;
-
+nav .hover1:hover {
+    background-image: url(img/sobremi.png);
+    background-repeat: no-repeat;
+    background-size:contain;  
 }
 
-
-#naranja {
-    background-color: #e0a46c;
+nav .hover2:hover {
+    background-image: url(img/fotografia.png);
+    background-repeat: no-repeat;
+    background-size:contain;  
 }
 
-#verde {
-    background-color: #aeb784;
+nav .hover3:hover {
+    background-image: url(img/proyectos.png);
+    background-repeat: no-repeat;
+    background-size:contain;  
 }
 
-#amarilla {
-    background-color: #f0c472;
+nav .hover4:hover {
+    background-image: url(img/edicion.png);
+    background-repeat: no-repeat;
+    background-size: contain;  
 }
 
-#azul {
-    background-color: #bacdd2;
+main{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;   
+}
+
+main div{
+     /*border: 3px solid rgb(255, 255, 255);*/
+     width: auto;
+     
+    
+    
+}
+main div h1{
+    color: #1c3838;
+    font-family: roc-grotesk, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 8vw;
+}
+
+main h1:hover{
+    color: #b0cb2d;
+    font-family: tuppence, serif;
+    font-family: mencken-std,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    position: relative;
+    bottom: 10px;
+}
+
+footer{
+    background-image: url(img/saratinaut.gif);
+    width: 8vw;
+    height: 100vh;
+    margin-left: 2vh;
+    background-position: center;
+}
 }
