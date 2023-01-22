@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     background-color: #264e48;
     height: 100vh;
@@ -13,39 +13,246 @@ body{
     display: flex;
     flex-direction: column;
     }
-    nav{
-       
+
+    nav {
+
         width: 100vw;
-        height: 30vh;
+        height: 15vh;
+
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
         align-items: center;
-        flex-wrap: nowrap;
     }
-    nav div{
-        width: 100vw;
+
+    nav div {
+        width: auto;
         height: 5vh;
-        margin-bottom:1vh ;
+        margin-bottom: 1vh;
         display: flex;
         justify-content: center;
         align-items: center;
-    
+
     }
-    nav div a{
+
+    nav div a {
         color: white;
+        font-size: 13px;
         font-family: roc-grotesk, sans-serif;
         font-weight: 100;
         font-style: normal;
         white-space: nowrap;
         text-decoration: none;
-     }
+    }
 
-     main h1{
+    main h1 {
         color: #1c3838;
         font-family: roc-grotesk, sans-serif;
         font-weight: 900;
         font-style: normal;
         font-size: 10vw;
         text-align: center;
+    }
+    main {
+        width: 95vw;
+        
+
+    }
+
+    main h1 {
+        color: #1c3838;
+        font-family: roc-grotesk, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 6vw;
+
+    }
+
+    main #cont2 img {
+        width: 50vw;
+
+    }
+
+    main #cont3 img {
+        width: 25vw;
+        height: auto;
+    }
+
+
+
+    #cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+       
+
+    }
+
+    #contb {
+        display: flex;
+        flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    }
+
+    #cont3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .subir{
+        position: relative;
+        bottom: 5px;
+    }
 }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.contenedor{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+    nav {
+        height: 100vh;
+        width: 10vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 18px;
+
+    }
+
+    nav div {
+        width: 7vw;
+        height: 18vh;
+        margin-bottom: 1vh;
+        /* border: 3px solid rgb(255, 255, 255) ;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    nav div a {
+        color: white;
+        rotate: -90deg;
+        font-family: roc-grotesk, sans-serif;
+        font-weight: 100;
+        font-size: 20px;
+        font-style: normal;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+
+    nav .hover:hover {
+        background-image: url(img/inicio.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    nav .hover1:hover {
+        background-image: url(img/sobremi.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    nav .hover2:hover {
+        background-image: url(img/fotografia.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    nav .hover3:hover {
+        background-image: url(img/proyectos.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    nav .hover4:hover {
+        background-image: url(img/edicion.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    main {
+        
+        width: 80vw;
+        margin-left: 10vw;
+
+    }
+
+    main h1 {
+        color: #1c3838;
+        font-family: roc-grotesk, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 6vw;
+
+    }
+
+    main #cont2 img {
+        width: 40vw;
+
+    }
+
+    main #cont3 img {
+        width: 20vw;
+        height: auto;
+    }
+
+
+
+    #cont {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: row;
+       
+
+    }
+
+    #contb {
+        display: flex;
+        flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    }
+
+    #cont3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .subir{
+        position: relative;
+        bottom: 5px;
+    }
+    footer{
+   
+        background-image: url(img/saratinaut.gif);
+        width: 8vw;
+        height: 100vh;
+        margin-left: 2vh;
+        background-position: center;
+        position: fixed;
+        left: 90%;
+        
+    }
+
 }
