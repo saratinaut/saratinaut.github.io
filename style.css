@@ -68,9 +68,8 @@ main h1:hover{
 footer{
 
     background-image: url(img/saratinaut2.gif);
- 
-    
     height: 20vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -112,6 +111,7 @@ nav div{
     rotate: -90deg;
     font-family: roc-grotesk, sans-serif;
     font-weight: 100;
+    font-size: 20px;
     font-style: normal;
     white-space: nowrap;
     text-decoration: none;
