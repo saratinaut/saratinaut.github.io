@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     }
     nav {
-
+background-color: #1c3838;;
         width: 100vw;
         height: 15vh;
 
@@ -38,7 +38,7 @@ body {
     }
 
     nav div a {
-        color: white;
+        color:#e9f5db;
         font-size: 13px;
         font-family: roc-grotesk, sans-serif;
         font-weight: 100;
@@ -112,6 +112,13 @@ body {
         position: relative;
         bottom: 5px;
     }
+    a img{
+        filter: grayscale(100%);
+    }
+    a:hover img{
+        filter: grayscale(0%);
+        
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
@@ -149,7 +156,7 @@ body {
     }
 
     nav div a {
-        color: white;
+        color:#e9f5db;
         rotate: -90deg;
         font-family: roc-grotesk, sans-serif;
         font-weight: 100;
@@ -247,6 +254,13 @@ body {
     .subir{
         position: relative;
         bottom: 5px;
+    }
+    a img{
+        filter: grayscale(100%);
+    }
+    a:hover img{
+        filter: grayscale(0%);
+        
     }
     footer{
    
