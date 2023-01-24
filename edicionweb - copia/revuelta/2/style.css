@@ -1,0 +1,10 @@
+div{
+    background-image: url("img/insta-anagea2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    width: 650px;
+    height: 650px;
+    margin: auto;
+    margin-top: 80px;
+}

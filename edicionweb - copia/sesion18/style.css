@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+div{
+    background-color: rgb(252, 252, 252);
+    border-style: dashed;
+    border-width:1px;
+    border-color: 660033;
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+
+}
+
+p,h1{
+    margin: 15px;
+}
+
+
+@font-face {
+    font-family: armalite;
+    src: url(font/armalite.ttf);
+} 
+
+#tipo1{
+    font-family: armalite;
+}
+
+@font-face{
+    font-family: cartoon;
+    src: url(font/BD_Cartoon_Shout.ttf);
+}
+
+#tipo2{
+    font-family: cartoon;
+}
+
+@font-face{
+    font-family: impact;
+    src: url(font/Impact\ Label.ttf);
+}
+
+#tipo3{
+    font-family: impact;
+}
+
+@font-face{
+    font-family: tuffy;
+    src: url(font/Tuffy-Regular.ttf);
+}
+
+#tipo4{
+    font-family: tuffy;
+}
+
+@font-face{
+    font-family: birds;
+    src: url(font/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf);
+}
+
+#tipo5{
+    font-family: birds;
+}
+
+@font-face{
+    font-family: riesling;
+    src: url(font/riesling.ttf);
+}
+
+#tipo6{
+    font-family: riesling;
+}
+
+@font-face{
+    font-family: house;
+    src: url(font/Hill_House.otf);
+}
+
+#tipo7{
+    font-family: house;
+}
+@font-face{
+    font-family: ugly;
+    src: url(font/UglyQua.ttf);
+}
+
+#tipo8{
+    font-family: ugly;
+}
+@font-face{
+    font-family: monos;
+    src: url(font/MonospaceTypewriter.ttf);
+}
+
+#tipo9{
+    font-family: monos;
+}
