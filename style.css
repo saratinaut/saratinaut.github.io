@@ -63,6 +63,7 @@ body {
     }
 
     main h1:hover {
+        transform: translateY(100%);
         color: #e9f5db;
         font-family: tuppence, serif;
         font-family: mencken-std, sans-serif;
@@ -175,9 +176,11 @@ body {
         font-weight: 900;
         font-style: normal;
         font-size: 8vw;
+
     }
 
     main h1:hover {
+        transition: 0.3s;
         color: #e9f5db;
         font-family: tuppence, serif;
         font-family: mencken-std, sans-serif;
@@ -186,6 +189,11 @@ body {
         position: relative;
         bottom: 10px;
     }
+
+    #color {
+        background-color: #e9f5db;
+    }
+
 
     footer {
 
